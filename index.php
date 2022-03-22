@@ -75,7 +75,7 @@
 
               <div class="btn-group">
                 <select class="form-select btn drop" aria-label="Default select example">
-                    <option selected>Grade</option>
+                    <option selected>GRade</option>
 
                     <?php
                     $grd_option = $head['grade_options'];
