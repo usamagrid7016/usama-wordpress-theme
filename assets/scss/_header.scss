@@ -1,0 +1,419 @@
+.head {
+    padding: 30px 35px;
+
+    @media only screen and (max-width: 1200px) {
+            padding: 30px 20px;
+    }
+
+    @media only screen and (max-width: 600px) {
+            padding: 15px 5px;
+      }
+
+    .navbar {
+        background: transparent;
+        padding-bottom: 17px;
+
+        @media only screen and (max-width: 992px) {
+            padding-bottom: 0px;
+          }
+    }
+
+    .logo {
+        width: 41px;
+
+        @media only screen and (max-width: 1200px) {
+            margin-right: 50px;
+          }
+
+        @media only screen and (max-width: 992px) {
+            margin-right: 40px;
+            }
+
+        // @media only screen and (max-width: 600px) {
+        //     margin-right: 40px;
+        //     }
+    }
+
+    .navbar-collapse {
+        padding-right: 0px;
+        // @media only screen and (max-width: 1200px) {
+        //     padding-right: 0;
+        //   }
+    }
+
+    .nav-link {
+        margin-right: 7px;
+        font-family: $fontInter;
+        font-style: $fontStylenormal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: $blueNav;
+
+        @media only screen and (max-width: 1200px) {
+            margin-right: 8px;
+            font-size: 15px;
+          }
+
+        @media only screen and (max-width: 600px) {
+            margin-right: 0;
+            font-size: 13px;
+          }
+    }
+
+    .btn-outline,
+    .btn-reg {
+        margin-right: 18px;
+        border-radius: 8px;
+        font-family: $fontInter;
+        font-style: $fontStylenormal;
+        font-weight: 500;
+        font-size: 15px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+
+        @media only screen and (max-width: 1200px) {
+            margin-right: 8px;
+            font-size: 14px;
+          }
+    }
+
+    .btn-outline {
+        color: $goldButton;
+        border-color: $goldButton;
+        padding: 10px 49px;
+
+        @media only screen and (max-width: 1200px) {
+            padding: 8px 39px;
+        }
+
+        @media only screen and (max-width: 992px) {
+            width: 200px;
+            margin-bottom: 10px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            width: 150px;
+        }
+    }
+    .btn-outline:hover {
+        color: $white;
+        background-color: $goldButton;
+        border-color: $goldButton;
+    }
+
+    .btn-reg {
+        color: $white;
+        background-color: $goldButton;
+        padding: 10px 39px;
+
+        @media only screen and (max-width: 1200px) {
+            padding: 8px 29px;
+        }
+
+        @media only screen and (max-width: 992px) {
+            width: 200px;
+            margin-bottom: 10px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            width: 150px;
+        }
+    }
+
+    .btn-reg:hover {
+        border-color: $goldButton;
+        color: $goldButton;
+        background-color: $white;
+    }
+
+    .plus-icon {
+        position: relative;
+        top: 132px;
+        left: 470px;
+
+        @media only screen and (max-width: 992px) {
+            top: 32px;
+            left: 570px;
+          }
+
+        @media only screen and (max-width: 600px) {
+            top: 42px;
+            left: 270px;
+        }
+    }
+
+    .green-circle {
+        position: relative;
+        top: 695px;
+        left: 532px;
+
+        @media only screen and (max-width: 992px) {
+            top: 695px;
+            left: 400px;
+          }
+
+        @media only screen and (max-width: 600px) {
+            top: 520px;
+            left: 290px;
+        }
+    }
+
+
+    // heading and picture
+    .row {
+        padding: 55px 0;
+        text-align: left;
+        @media only screen and (max-width: 992px) {
+            text-align: center;
+            padding: 0;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+
+        .head-menu {
+            padding: 0 20px;
+        }
+    }
+
+    .heading-1 {
+        font-family: $fontFair;
+        font-style: $fontStylenormal;
+        font-weight: bold;
+        font-size: 64px;
+        padding-top: 42px;
+
+        @media only screen and (max-width: 1200px) {
+            font-size: 54px;
+        }
+
+        @media only screen and (max-width: 992px) {
+            padding-top: 12px;
+            font-size: 44px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            padding-top: 0px;
+            font-size: 39px;
+        }
+    }
+
+    .dropdowns {
+        padding-top: 60px;
+        @media only screen and (max-width: 1200px) {
+            padding-top: 40px;
+        }
+
+        @media only screen and (max-width: 992px) {
+            padding-top: 20px;
+            .btn-group {
+                margin: auto;
+            }
+        }
+
+        .d-flex {
+            padding-top: 32px;
+        }
+
+        h2 {
+            padding: 8px 0;
+            font-family: $fontInter;
+            font-style: $fontStylenormal;
+            font-weight: 600;
+            font-size: 22px;
+
+            @media only screen and (max-width: 1200px) {
+                font-size: 19px;
+            }
+
+            @media only screen and (max-width: 600px) {
+                font-size: 18px;
+                padding-top: 0;
+            }
+        }
+
+        hr {
+            border: 1px solid $blueNav;
+            border-radius: 4px;
+            width: 7%;
+            opacity: 1;
+
+            @media only screen and (max-width: 992px) {
+                margin: auto;
+                width: 5%;
+            }
+
+            @media only screen and (max-width: 600px) {
+                width: 9%;
+            }
+        }
+
+        .two-group {
+            margin-left: 30px;
+            @media only screen and (max-width: 992px) {
+                margin-left: 0;
+            }
+
+            .input-holder {
+                margin: 0;
+                width: 171px;
+                height: 52px;
+
+                @media only screen and (max-width: 600px) {
+                    width: 120px;
+                    height: 40px;
+                }
+            }
+        }
+
+        .fa {
+            z-index: -1000;
+            position: relative;
+            left: 141px;
+            bottom: 39px;
+            font-size: 13px;
+
+            @media only screen and (max-width: 1200px) {
+                left: 132px;
+                bottom: 37px;
+            }
+
+            @media only screen and (max-width: 992px) {
+                left: 59px;
+                bottom: 36px;
+            }
+
+            @media only screen and (max-width: 600px) {
+                left: 37px;
+                bottom: 33px;
+            }
+        }
+
+        ::placeholder, 
+        ::-webkit-input-placeholder {
+            opacity: 1;
+        }
+    }   
+
+    .drop {
+        width: 170px;
+        height: 52px;
+        padding: 10px 31px;
+        text-align: left;
+        font-family: $fontInter;
+        font-style: $fontStylenormal;
+        font-weight: normal;
+        font-size: 15px;
+        border: 0.8px solid $grey;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 6px;
+
+        @media only screen and (max-width: 1200px) {
+            width: 160px;
+            height: 46px;
+            font-size: 14px;
+            padding: 8px 25px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            width: 120px;
+            height: 40px;
+            font-size: 14px;
+            padding: 7px 15px;
+        }
+    }
+
+    .drop-menu {
+        padding-right: 29px;
+        border: 0.8px solid $grey;
+        border-left: none;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 6px;
+
+        @media only screen and (max-width: 1200px) {
+            padding-right: 19px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            padding-right: 18px;
+        }
+    }
+
+    .dropdown-toggle::after {
+        display: none !important;
+    }
+
+    .btn-exp {
+        font-family: $fontMullish;
+        font-style: $fontStylenormal;
+        font-weight: bold;
+        font-size: 17px;
+        margin-top: 48px;
+        border-radius: 8px;
+        color: $white;
+        background-color: $goldButton;
+        padding: 12px 59px;
+
+        @media only screen and (max-width: 1200px) {
+            font-size: 15px;
+            padding: 10px 50px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            font-size: 14px;
+            padding: 9px 48px;
+        }
+    }
+
+    .btn-exp:hover {
+        border-color: $goldButton;
+        color: $goldButton;
+        background-color: $white;
+    }
+
+    .traveller {
+        margin-left: 70px;
+        width: 687px;
+        height: 654px;
+
+        @media only screen and (max-width: 1200px) {
+            margin-left: 40px;
+            margin-top: 20px;
+            width: 520px;
+            height: 577px;
+        }
+
+        @media only screen and (max-width: 992px) {
+            margin-left: 0px;
+            margin-top: 0px;
+            width: 450px;
+            height: 477px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            margin-left: 0px;
+            margin-top: 0px;
+            width: 350px;
+            height: 377px;
+            padding: 0 15px;
+        }
+    }
+
+    @media screen and (max-width: 992px) {
+        .swap-b {
+            -webkit-box-ordinal-group: 0 !important;
+            -ms-flex-order: -1 !important;
+            order: -1 !important;
+        }
+    
+        .swap-h {
+            -webkit-box-ordinal-group: 7 !important;
+            -ms-flex-order: 6 !important;
+            order: 6 !important;
+        }
+      }
+}

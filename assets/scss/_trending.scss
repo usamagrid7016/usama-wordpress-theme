@@ -1,0 +1,277 @@
+.trending {
+    padding: 30px 35px;
+
+    @media only screen and (max-width: 1200px) {
+        padding: 30px 20px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        padding: 15px 0px;
+    }
+
+    .container-fluid {
+        padding: 0 50px;
+
+        @media only screen and (max-width: 1200px) {
+            text-align: center;
+            padding: 0;
+            align-items: center;
+        }
+
+        @media only screen and (max-width: 992px) {
+            .row {
+                padding-left: 50px;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            padding-left: 0px;
+            .row {
+                padding-left: 0px;
+            }
+        }
+    }
+
+    .plus-icon {
+        position: relative;
+        top: -34.56px;
+        left: 410px;
+        transform: rotate(7.49deg);
+
+        @media only screen and (max-width: 1200px) {
+            top: -24.56px;
+            left: -100px;
+        }
+
+        @media only screen and (max-width: 992px) {
+            top: -34px;
+            left: 25px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            top: -9px;
+            left: 100px;
+        }
+    }
+
+    .green-circle {
+        position: relative;
+        top: 395px;
+        left: -100px;
+
+        @media only screen and (max-width: 1200px) {
+            top: 558px;
+            left: -487px;
+        }
+
+        @media only screen and (max-width: 992px) {
+            top: 556px;
+            left: -305px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            top: 555px;
+            left: -159px;
+        }
+    }
+
+    .green-circle-2 {
+        position: relative;
+        top: 601px;
+        left: 700px;
+
+        @media only screen and (max-width: 1200px) {
+            top: 805px;
+            left: 270px;
+        }
+
+        @media only screen and (max-width: 992px) {
+            top: 1070px;
+            left: 209px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            top: 2060px;
+            left: 36px;
+        }
+    } 
+
+    h1 {
+        font-family: $fontFair;
+        font-style: $fontStylenormal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 50px;
+        margin-left: 10px;
+
+        padding-bottom: 25px;
+
+        @media only screen and (max-width: 1200px) {
+            font-size: 32px;
+            line-height: 30px;
+            padding-left: 10px;
+        }
+
+        @media only screen and (max-width: 992px) {
+            font-size: 30px;
+            line-height: 30px;
+            padding-left: 40px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            font-size: 26px;
+            line-height: 30px;
+            margin: auto;
+        }
+    }
+
+    .view-button {
+        width: 118px;
+        height: 30px;
+        margin: 8px 0;
+
+        @media only screen and (max-width: 1200px) {
+            margin-right: 30px;
+            margin-bottom: 20px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            margin-right: 6px;
+            margin: 5px 0;
+        }
+
+        .btn {
+            padding: 0;
+        }
+
+        .view-b {
+            font-family: $fontInter;
+            font-style: $fontStylenormal;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 20px;
+
+            color: $goldButton;
+
+            @media only screen and (max-width: 1200px) {
+                font-size: 16px;
+                line-height: 15px;
+            }
+
+            @media only screen and (max-width: 600px) {
+                padding: 5px 0px;
+            }
+        }
+
+        .dropdown-toggle::after {
+            display: none !important;
+        }
+
+        img {
+            width: 6px;
+            height: 19px;
+            margin-left: -25px;
+            padding-bottom: 6px;
+
+            @media only screen and (max-width: 1200px) {
+                height: 21px;
+                padding-bottom: 11px;
+            }
+        }
+    }
+
+    .card {
+        width: 283px;
+        height: 456px;
+        margin: 8px;
+        border: none;
+        overflow: hidden;
+
+        background: no-repeat top center;
+        background-attachment: scroll;
+        position: relative;
+        -webkit-background-size: 284px 330px;
+        -moz-background-size: 284px 330px;
+        -o-background-size: 284px 330px;
+        background-size: 287px 330px;
+
+        @media only screen and (max-width: 1200px) {
+            margin: 0 auto;
+        }
+    }
+
+    .yoga {
+        width: 268px;
+        height: 446px;
+        background-size: 287px 313px;
+        border-radius: 2%;
+
+        @media only screen and (max-width: 1200px) {
+            margin: 0 auto;
+        }
+    }
+
+    .place {
+        position: relative;
+        top: 230px;
+        left: -10px;
+
+        width: 287px;
+        height: 220px;
+        padding: 8px;
+        background: $white;
+
+        @media only screen and (max-width: 1200px) {
+            padding: 0 20px;
+        }
+
+        h5 {
+            font-family: $fontInter;
+            font-style: $fontStylenormal;
+            font-weight: bolder;
+            font-size: 19px;
+            line-height: 30px;
+            color: $black;
+
+            @media only screen and (max-width: 1200px) {
+                font-size: 18px;
+                line-height: 25px;
+            }
+        }
+
+        p {
+            font-family: $fontInter;
+            font-style: $fontStylenormal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 26px;
+            color: $greypara;
+
+            @media only screen and (max-width: 1200px) {
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+
+        .btn {
+            font-family: $fontInter;
+            font-style: $fontStylenormal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 28px;
+            margin-left: -11px;
+
+            color: $goldButton;
+
+            @media only screen and (max-width: 1200px) {
+                font-size: 14px;
+                margin-left: -7px;
+            }
+        }
+    }
+
+    .yoga-place {
+        top: 222px;
+        padding-top: 16px;
+    }
+}

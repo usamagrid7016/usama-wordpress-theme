@@ -1,0 +1,181 @@
+.descrp {
+    padding: 30px 35px;
+
+    @media only screen and (max-width: 1200px) {
+        padding: 30px 20px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        padding: 15px 5px;
+    }
+
+    .row {
+        padding: 55px 0;
+        text-align: left;
+
+        @media only screen and (max-width: 992px) {
+            text-align: center;
+            padding: 0;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+    }
+    
+    .plus-icon {
+        position: relative;
+        -webkit-transform: rotate(7.49deg);
+        transform: rotate(7.49deg);
+        top: 45px;
+        left: 640px;
+
+        @media only screen and (max-width: 1200px) {
+            top: 85px;
+            left: 440px;
+        }
+
+        @media only screen and (max-width: 992px) {
+            top: 25px;
+            left: 550px;
+          }
+
+        @media only screen and (max-width: 600px) {
+            top: 42px;
+            left: 270px;
+        }
+    }
+
+    .green-circle {
+        position: relative;
+        top: 445px;
+        left: 1032px;
+
+        @media only screen and (max-width: 1200px) {
+            top: 445px;
+            left: 790px;
+        }
+
+        @media only screen and (max-width: 992px) {
+            top: 445px;
+            left: 350px;
+          }
+
+        @media only screen and (max-width: 600px) {
+            top: 360px;
+            left: 200px;
+        }
+    }
+
+    .balloon-traveller {
+        margin-left: -50px;
+        width: 659px;
+        height: 534px;
+
+        @media only screen and (max-width: 1200px) {
+            margin-left: -20px;
+            width: 540px;
+            height: 500px;
+        }
+
+        @media only screen and (max-width: 992px) {
+            width: 450px;
+            height: 407px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            width: 350px;
+            height: 377px;
+            padding: 0 15px;       
+        }
+    }
+
+    h1 {
+        font-family: $fontFair;
+        font-style: $fontStylenormal;
+        font-weight: bold;
+        font-size: 36px;
+        color: $black;
+        line-height: 50px;
+
+        padding: 95px 102px 20px 70px;
+
+        @media only screen and (max-width: 1200px) {
+            font-size: 30px;
+            padding: 95px 102px 0px 70px;
+        }
+
+        @media only screen and (max-width: 992px) {
+            font-size: 30px;
+            padding: 25px 150px 0px 150px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            font-size: 28px;
+            padding: 5px 20px 0px 20px;
+        }
+    }
+
+    p {
+        font-family: $fontMullish;
+        font-style: $fontStylenormal;
+        font-weight: 200;
+        line-height: 30px;
+        font-size: 17px;
+        color: $greypara;
+
+        padding: 0 115px 20px 70px;
+
+        @media only screen and (max-width: 1200px) {
+            font-size: 16px;
+            padding: 0 115px 0 70px;
+        }
+
+        @media only screen and (max-width: 992px) {
+            font-size: 15px;
+            padding: 0 135px 0 135px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            padding: 0 15px 0 15px;
+            font-size: 14px;
+            line-height: 25px;
+        }
+    }
+
+    .btn-exp {
+        font-family: $fontInter;
+        font-style: $fontStylenormal;
+        font-weight: 600;
+        font-size: 16px;
+        border-radius: 8px;
+        color: $white;
+        background-color: $goldButton;
+        padding: 11px 35px;
+
+        margin: 5px 50px 20px 70px;
+
+        @media only screen and (max-width: 1200px) {
+            font-size: 15px;
+            margin: 0px 50px 20px 70px;
+            padding: 10px 31px;
+        }
+
+        @media only screen and (max-width: 992px) {
+            font-size: 15px;
+            margin: 0px 50px 20px 50px;
+            padding: 9px 29px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            font-size: 14px;
+            margin: 0px 30px 20px 30px;
+            padding: 8px 27px;
+        }
+    }
+
+    .btn-exp:hover {
+        border-color: $goldButton;
+        color: $goldButton;
+        background-color: $white;
+    }
+}

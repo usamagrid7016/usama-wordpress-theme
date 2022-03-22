@@ -1,0 +1,2 @@
+$((function(){$("#datepicker").datepicker()}));const showOnPx=100,backToTopButton=document.querySelector(".back-to-top"),scrollContainer=()=>document.documentElement||document.body;document.addEventListener("scroll",(()=>{(document.documentElement||document.body).scrollTop>100?backToTopButton.classList.remove("hidden"):backToTopButton.classList.add("hidden")}));const goToTop=()=>{document.body.scrollIntoView({behavior:"smooth"})};backToTopButton.addEventListener("click",goToTop);
+//# sourceMappingURL=all.js.map
